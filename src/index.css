@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.text-gold {
+  color: #FFD700;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-gray-800 {
+  background-color: #1a1a1a;
+}
+
+.game {
+  transition: all 0.3s ease-in-out;
+}
+
+.sequence {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.key {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+
+.key.active {
+  background-color: #FFD700;
+  color: #000;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-start {
+  background-color: #FFD700;
+  color: #000;
+}
+
+.btn-end, .btn-restart {
+  background-color: #FF0000;
+  color: #FFF;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.ranking {
+  transition: all 0.3s ease-in-out;
+}
